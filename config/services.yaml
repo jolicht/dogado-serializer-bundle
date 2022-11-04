@@ -1,0 +1,6 @@
+services:
+  Jolicht\DogadoSerializerBundle\Normalizer\AggregateRootIdNormalizer:
+    tags: ['serializer.normalizer']
+
+  Jolicht\DogadoSerializerBundle\Normalizer\SerializablePayloadNormalizer:
+    tags: ['serializer.normalizer']
